@@ -1,0 +1,7 @@
+rewrite ^/api/up /upload.php;
+rewrite ^/(\w+)!(.+) /view.php?image=$1&k=$2;
+rewrite ^/(\w+)$ /view.php?image=$1;
+rewrite ^/login/go /index.php permanent;
+rewrite ^/api/hist /hist.php;
+rewrite ^/api/del /del.php;
+rewrite ^/api/thumb /thumb.php;

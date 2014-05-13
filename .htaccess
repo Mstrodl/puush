@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^api/up /upload.php
+RewriteRule ^(\w+)!(.+) /view.php?image=$1&k=$2
+RewriteRule ^(\w+)$ /view.php?image=$1
+RewriteRule ^login/go /index.php
+RewriteRule ^api/hist /hist.php
+RewriteRule ^api/del /del.php
+RewriteRule ^api/thumb /thumb.php
