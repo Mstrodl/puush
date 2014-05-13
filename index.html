@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Puush by ajanvier</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/ajanvier/puush">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/ajanvier/puush/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/ajanvier/puush/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Puush</h1>
+          <p>For people who wanna have custom puush</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/ajanvier">ajanvier</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <p>Hello there !</p>
+
+<p>So, recently I was like : Hey, why not have my puushs on my remote server so I can have them all the time without limitations and not on a server I didn't knew (the puush server).</p>
+
+<p>After searching and a little bit of WireShark (awesome soft, I recommand it for packet analysing !) I did this little bit of php.</p>
+
+<p>And I also add an aes256 encoding so you'll have urls like when you upload files with Mega.</p>
+
+<p>(Sorry for the english, I'm french.)</p>
+
+<p>/!\ This is for advanced users, I'm not responsible of anything you'll do with this.
+puush is the entire property of it's original owners /!\</p>
+
+<p>Thanks to Hidendra (<a href="https://github.com/Hidendra/puush-api">https://github.com/Hidendra/puush-api</a>) for the inspiration.</p>
+
+<p>If you have any problems that aren't specific to my script, use Google before contacting or letting an issue.
+Don't be shy and commit if you think you can add interisting edits in my code !</p>
+
+<p>INSTALL :</p>
+
+<pre><code>SERVER SIDE :
+
+- Copy all the files in a folder in your web folder (for example /var/www/i)
+- Create thumbs and uploads folders with chmod 777 on them in this folder
+- Edit config.php to change BASE_DIR constant to the directory you made before
+- Also change BASE_URL to the domain or subdomain you want your puush to be (for example i.yourwebsite.com)
+- Create a new SQL database, or use an existing one and use database.sql to create a puush table
+- Edit bdd.php constants (HOST, DATABASE, USER, PASS) so those logins fits the ones of your database
+- If you use apache, let the .htaccess like it is, if you're using nginx, copy the nginx rules (in nginx rules.txt) in your config file
+
+CLIENT SIDE :
+
+- Edit your local hosts file (C:\System32\drivers\etc\hosts on Windows) to add the following line :
+
+XXX.XXX.XXX.XXX puush.me
+
+And replace XXX.XXX.XXX.XXX by your server IP
+</code></pre>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
