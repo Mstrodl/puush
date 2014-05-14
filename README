@@ -27,7 +27,7 @@ INSTALL :
 	- Create a new SQL database, or use an existing one and use database.sql to create a puush table
 	- Edit bdd.php constants (HOST, DATABASE, USER, PASS) so those logins fits the ones of your database
 	- If you use apache, let the .htaccess like it is, if you're using nginx, copy the nginx rules (in nginx rules.txt) in your config file
-	- Setup a vhost to accept requests at PUUSH.ME
+	- Setup a vhost to accept requests from/at puush.me (by editing ServerName or server_name)
 
 	CLIENT SIDE :
 
