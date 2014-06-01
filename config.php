@@ -3,7 +3,7 @@
 //if (!defined('puush')) exit('Bonjour');
 
 // The folder where uploads are stored in
-define ('BASE_DIR', '/var/www/i');
+define ('BASE_DIR', '/var/www/i/');
 define ('UPLOAD_DIR', BASE_DIR . 'uploads/');
 define ('THUMBS_DIR', BASE_DIR . 'thumbs/');
 
