@@ -1,20 +1,20 @@
 Hello there !
 
-So, recently I was like : Hey, why not have my puushs on my remote server so I can have them all the time without limitations and not on a server I didn't knew (the puush server).
+So, recently I was like: Hey, why not have my puushs on my remote server so I can have them all the time without limitations and not on a server I didn't knew (the puush server).
 
-After searching and a little bit of WireShark (awesome soft, I recommand it for packet analysing !) I did this little bit of php.
+After searching and using WireShark a little bit (Awesome software, I recommand it for packet analyzing !) I made this little PHP script.
 
-And I also add an aes256 encoding so you'll have urls like when you upload files with Mega.
+I also added aes256 encoding so you'll have urls like when you upload files with Mega.
 
-(Sorry for the english, I'm french.)
+(Sorry for the English, I'm French.)
 
-/!\ This is for advanced users, I'm not responsible of anything you'll do with this.
-puush is the entire property of it's original owners /!\
+/!\ This is for advanced users, I'm not responsible for anything you do with this.
+puush is the property of its original owners /!\
 
 Thanks to Hidendra (https://github.com/Hidendra/puush-api) for the inspiration.
 
-If you have any problems that aren't specific to my script, use Google before contacting or letting an issue.
-Don't be shy and commit if you think you can add interisting edits in my code !
+If you have any problems that aren't specific to my script, use Google before contacting or creating an issue.
+Don't be shy and commit if you think you can add interesting edits to my code!
 
 INSTALL :
 
@@ -31,7 +31,7 @@ INSTALL :
 
 	CLIENT SIDE :
 
-	- Edit your local hosts file (C:\System32\drivers\etc\hosts on Windows) to add the following line :
+	- Edit your local hosts file (C:\System32\drivers\etc\hosts on Windows, /etc/hosts on Linux/MacOS) and add the following line:
 
 	XXX.XXX.XXX.XXX puush.me
 
